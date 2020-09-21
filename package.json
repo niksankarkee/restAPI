@@ -5,20 +5,28 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksankarkee/restApi.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niksankarkee/restApi/issues"
+  },
+  "homepage": "https://github.com/niksankarkee/restApi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^4.1.1",
     "lodash": "^4.17.20",
-    "mongoose": "^5.10.5",
+    "mongoose": "^5.10.6",
     "morgan": "^1.10.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
   }
 }
